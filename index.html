@@ -1,4 +1,9 @@
-<?php
+<html>
+  <head>
+   
+   </head>
+   <body>
+    <?php
 // Reads the variables sent via POST from our gateway
 $sessionId   = $_POST["sessionId"];
 $serviceCode = $_POST["serviceCode"];
@@ -39,3 +44,5 @@ if ($text == "") {
 // Echo the response back to the API
 header('Content-type: text/plain');
 echo $response;
+</body>
+  </html>
